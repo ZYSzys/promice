@@ -1,0 +1,38 @@
+{
+  "name": "promice",
+  "version": "0.0.0",
+  "description": "Simple implementation of Promises/A+.",
+  "license": "MIT",
+  "repository": "ZYSzys/promice",
+  "author": {
+    "name": "ZYSzys",
+    "email": "17367077526@163.com",
+    "url": "zyszys.github.io"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "npm run lint && nyc ava -v",
+    "lint": "prettier --write *.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "promise"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "1.0.1",
+    "codecov": "3.1.0",
+    "nyc": "13.1.0",
+    "prettier": "*"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
