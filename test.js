@@ -1,10 +1,11 @@
-import test from 'ava';
-import promice from '.';
+'use strict';
 
-const resolve = () => console.log('resolved!');
-const reject = () => console.log('rejected!');
+const promisesAplusTests = require('promises-aplus-tests');
+const adapter = require('.');
 
-test('Promise', t => {
-  const p = promice(resolve, reject);
-  t.is(p instanceof Promise, true);
+promisesAplusTests(adapter, function(err) {
+  // All done; output is in the console. Or check `err` for number of failures.
+  if (err) {
+    console.log(err);
+  }
 });

@@ -1,7 +1,6 @@
 # promice
 
 [![Build Status](https://travis-ci.com/ZYSzys/promice.svg?token=hDbx4fFbLLvMJQybMquv&branch=master)](https://travis-ci.com/ZYSzys/promice)
-[![codecov](https://codecov.io/gh/ZYSzys/promice/badge.svg?branch=master)](https://codecov.io/gh/ZYSzys/promice?branch=master)
 [![NPM version](https://img.shields.io/npm/v/promice.svg?style=flat)](https://npmjs.com/package/promice)
 [![NPM downloads](https://img.shields.io/npm/dm/promice.svg?style=flat)](https://npmjs.com/package/promice)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
