@@ -1,9 +1,9 @@
 'use strict';
 
 const promisesAplusTests = require('promises-aplus-tests');
-const adapter = require('.');
+const adapter = require('./src/adapter');
 
-promisesAplusTests(adapter, function(err) {
+promisesAplusTests(adapter, err => {
   // All done; output is in the console. Or check `err` for number of failures.
   if (err) {
     console.log(err);

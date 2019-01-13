@@ -17,6 +17,7 @@
     "lint": "prettier --write *.js"
   },
   "files": [
+    "src",
     "index.js"
   ],
   "keywords": [
